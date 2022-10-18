@@ -8,7 +8,7 @@
  * @flags:  Calculates active flags.
  * @width: get width.
  * @precision: precision specifier
- * @size: Size specifier
+ * @size: Size specifier.
  *
  * Return: Number of chars printed.
  */
@@ -87,7 +87,7 @@ int write_number(int is_negative, int ind, char buffer[],
  * @prec: Precision specifier
  * @length: Number length
  * @padd: Pading char
- * @extra_c: Extra char
+ * @extra_c: Extra char.
  *
  * Return: Number of printed chars.
  */
@@ -199,9 +199,9 @@ int write_unsgnd(int is_negative, int ind,
  * write_pointer - Write a memory address
  * @buffer: Arrays of chars
  * @ind: Index at which the number starts in the buffer
- * @length: Length of number
- * @width: Wwidth specifier
- * @flags: Flags specifier
+ * @length: Length of number;
+ * @width: Wwidth specifier;
+ * @flags: Flags specifier;
  * @padd: Char representing the padding
  * @extra_c: Char representing extra char
  * @padd_start: Index at which padding should start
