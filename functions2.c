@@ -100,6 +100,7 @@ int print_non_printable(va_list types, char buffer[],
  * @flags:  Calculates active flags.
  * @width: get width(s)
  * @size: Size specifier
+ * @precision: the precison specifier
  * Return: Numbers of chars printed
  */
 
